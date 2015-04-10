@@ -11,6 +11,7 @@ describe('node-env/sdk/environment', function (done) {
     done();
   }),
 
+
   it("Can list system environment variables", function () {
     var env = sysInfo.sysInfo();
     should.exist(env);
